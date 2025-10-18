@@ -90,3 +90,37 @@ Paste the query into the playground and execute it.
 
 The response will match the corresponding .json file in this repo.
 
+
+
+\## Characters List Queries
+
+
+
+We can fetch a paginated list of all characters using the `characters(page: Int)` field.  
+
+Each query fetches the following subfields:
+
+\- `id`
+
+\- `name`
+
+\- `status`
+
+\- `image`
+
+
+
+\### Files
+
+
+
+\- `characters-page-1.graphql` \& `characters-page-1-output.json`
+
+\- `characters-page-2.graphql` \& `characters-page-2-output.json`
+
+\- `characters-page-3.graphql` \& `characters-page-3-output.json`
+
+\- `characters-page-4.graphql` \& `characters-page-4-output.json`
+
+
+
